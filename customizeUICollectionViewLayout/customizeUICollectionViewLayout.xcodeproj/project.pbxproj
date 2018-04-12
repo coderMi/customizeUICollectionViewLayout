@@ -13,7 +13,10 @@
 		2441DEA0207FA2B400858A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2441DE9F207FA2B400858A66 /* Assets.xcassets */; };
 		2441DEA3207FA2B400858A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2441DEA1207FA2B400858A66 /* LaunchScreen.storyboard */; };
 		2441DEA6207FA2B400858A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441DEA5207FA2B400858A66 /* main.m */; };
-		DA5F7926FDBFC5AA155C1B06 /* libPods-customizeUICollectionViewLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C274D39620BF46276B499E /* libPods-customizeUICollectionViewLayout.a */; };
+		244C9422207FA4D30097CD56 /* MLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C941D207FA4D20097CD56 /* MLCollectionView.m */; };
+		244C9423207FA4D30097CD56 /* MLWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C941F207FA4D20097CD56 /* MLWaterflowLayout.m */; };
+		244C9424207FA4D30097CD56 /* MLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C9420207FA4D30097CD56 /* MLCollectionViewCell.m */; };
+		3F6A113A5CF9FE33F7E1ED45 /* Pods_customizeUICollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384474EED823E131DAF2495F /* Pods_customizeUICollectionViewLayout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +30,15 @@
 		2441DEA2207FA2B400858A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2441DEA4207FA2B400858A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2441DEA5207FA2B400858A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244C941C207FA4D20097CD56 /* MLWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLWaterflowLayout.h; sourceTree = "<group>"; };
+		244C941D207FA4D20097CD56 /* MLCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCollectionView.m; sourceTree = "<group>"; };
+		244C941E207FA4D20097CD56 /* MLCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCollectionView.h; sourceTree = "<group>"; };
+		244C941F207FA4D20097CD56 /* MLWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLWaterflowLayout.m; sourceTree = "<group>"; };
+		244C9420207FA4D30097CD56 /* MLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCollectionViewCell.m; sourceTree = "<group>"; };
+		244C9421207FA4D30097CD56 /* MLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCollectionViewCell.h; sourceTree = "<group>"; };
+		384474EED823E131DAF2495F /* Pods_customizeUICollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customizeUICollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		557FE9F3D686AD2661A4637C /* Pods-customizeUICollectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customizeUICollectionViewLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-customizeUICollectionViewLayout/Pods-customizeUICollectionViewLayout.release.xcconfig"; sourceTree = "<group>"; };
 		736E669D51986863C2E8E960 /* Pods-customizeUICollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customizeUICollectionViewLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customizeUICollectionViewLayout/Pods-customizeUICollectionViewLayout.debug.xcconfig"; sourceTree = "<group>"; };
-		88C274D39620BF46276B499E /* libPods-customizeUICollectionViewLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customizeUICollectionViewLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5F7926FDBFC5AA155C1B06 /* libPods-customizeUICollectionViewLayout.a in Frameworks */,
+				3F6A113A5CF9FE33F7E1ED45 /* Pods_customizeUICollectionViewLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,12 @@
 				2441DE97207FA2B300858A66 /* AppDelegate.m */,
 				2441DE99207FA2B300858A66 /* ViewController.h */,
 				2441DE9A207FA2B300858A66 /* ViewController.m */,
+				244C941E207FA4D20097CD56 /* MLCollectionView.h */,
+				244C941D207FA4D20097CD56 /* MLCollectionView.m */,
+				244C9421207FA4D30097CD56 /* MLCollectionViewCell.h */,
+				244C9420207FA4D30097CD56 /* MLCollectionViewCell.m */,
+				244C941C207FA4D20097CD56 /* MLWaterflowLayout.h */,
+				244C941F207FA4D20097CD56 /* MLWaterflowLayout.m */,
 				2441DE9C207FA2B300858A66 /* Main.storyboard */,
 				2441DE9F207FA2B400858A66 /* Assets.xcassets */,
 				2441DEA1207FA2B400858A66 /* LaunchScreen.storyboard */,
@@ -81,7 +96,7 @@
 		840C63FF02DEFC0DB5B5F729 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88C274D39620BF46276B499E /* libPods-customizeUICollectionViewLayout.a */,
+				384474EED823E131DAF2495F /* Pods_customizeUICollectionViewLayout.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +121,7 @@
 				2441DE8F207FA2B300858A66 /* Sources */,
 				2441DE90207FA2B300858A66 /* Frameworks */,
 				2441DE91207FA2B300858A66 /* Resources */,
+				ABF9F0AD80267BB427511E32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +196,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		ABF9F0AD80267BB427511E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-customizeUICollectionViewLayout/Pods-customizeUICollectionViewLayout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customizeUICollectionViewLayout/Pods-customizeUICollectionViewLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2441DE9B207FA2B300858A66 /* ViewController.m in Sources */,
+				244C9424207FA4D30097CD56 /* MLCollectionViewCell.m in Sources */,
+				244C9422207FA4D30097CD56 /* MLCollectionView.m in Sources */,
+				244C9423207FA4D30097CD56 /* MLWaterflowLayout.m in Sources */,
 				2441DEA6207FA2B400858A66 /* main.m in Sources */,
 				2441DE98207FA2B300858A66 /* AppDelegate.m in Sources */,
 			);
@@ -333,7 +370,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3A7CAY22QD;
 				INFOPLIST_FILE = customizeUICollectionViewLayout/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.dreamblue.customizeUICollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,7 +388,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3A7CAY22QD;
 				INFOPLIST_FILE = customizeUICollectionViewLayout/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.dreamblue.customizeUICollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
